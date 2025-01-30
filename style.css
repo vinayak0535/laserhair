@@ -474,8 +474,8 @@ button{
     margin-left: 10px;
 }
 
-    .contact-form input{
-    width:200px;
+    .contact-form {
+    width:400px;
 }    
 
 }
