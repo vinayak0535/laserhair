@@ -350,10 +350,8 @@ section.footer{
     section.hero{
         flex-direction: column;
         justify-content: center;
-        align-items: center
-     ;
-        margin: 0;
-        padding: 0;
+        align-items: center;
+        padding: 10px;
     }
 
     .content{
@@ -362,7 +360,7 @@ section.footer{
     }
     
     .image img{
-        width: 400px;
+        width: 300px;
         margin: auto;
     }
 
@@ -398,18 +396,19 @@ section.footer{
 }
 
 .img img{
-    width: 450px;
+    width: 300px;
     margin-bottom: 20px;
+    margin:auto;
 }
 
 .about-flex{
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .paragraph{
     width: 100%;
+    margin:0;
 }
 
 .about-flex p{
@@ -421,6 +420,7 @@ section.footer{
 
 .testi{
     width: 90%;
+    font-size:16px
 }
 
 
@@ -476,12 +476,12 @@ button{
     }
 
     .contact-form {
-        width: 80%;
+        width: 90%;
         padding: 15px;
     }
 
     .contact-form input {
-        width: 80%;
+        width: 90%;
         font-size: 16px;
     }
 
@@ -493,8 +493,8 @@ button{
     }
 
     .contact-form button {
-        width: 80%;
-        font-size: 18px;
+ 
+        font-size: 14px;
          background-color:#6A28AD;
     }
 
