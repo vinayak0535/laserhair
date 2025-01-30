@@ -476,12 +476,12 @@ button{
     }
 
     .contact-form {
-        width: 90%;
+        width: 80%;
         padding: 15px;
     }
 
     .contact-form input {
-        width: 100%;
+        width: 80%;
         font-size: 16px;
     }
 
@@ -493,8 +493,9 @@ button{
     }
 
     .contact-form button {
-        width: 100%;
+        width: 80%;
         font-size: 18px;
+         background-color:#6A28AD;
     }
 
 }
