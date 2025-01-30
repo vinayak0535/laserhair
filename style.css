@@ -353,6 +353,10 @@ section.footer{
         align-items: center;
         padding: 10px;
     }
+    .container{
+    padding-inline:25px;
+}
+
 
     .content{
         display: flex;
@@ -404,7 +408,11 @@ section.footer{
 .about-flex{
     flex-direction: column;
     justify-content: center;
+    padding:10px;
 }
+    .about-flex img{
+        height:300px
+    }
 
 .paragraph{
     width: 100%;
@@ -444,7 +452,7 @@ body html{
 }
 
 .content h1{
-    font-size: 46px;
+    font-size: 40px;
 }
 
 .content p{
@@ -477,7 +485,7 @@ button{
 
     .contact-form {
         width: 90%;
-        padding: 15px;
+        padding: 15px 30px;
     }
 
     .contact-form input {
@@ -495,7 +503,14 @@ button{
     .contact-form button {
  
         font-size: 14px;
+        padding:10px 20px;
          background-color:#6A28AD;
     }
+
+    .info{
+    padding:20px 40px;
+        margin-top:40px;
+    }
+ 
 
 }
