@@ -476,6 +476,11 @@ button{
 
     .contact-form {
     width:400px;
+    margin: auto;
+
 }    
+        .contact-form input{
+    width:220px;
+}   
 
 }
