@@ -477,10 +477,12 @@ button{
     .contact-form {
     width:400px;
     margin: auto;
+    overflow: none;
 
 }    
         .contact-form input{
     width:220px;
+    overflow: none
 }   
     section.appointment{
     width: 100%;
