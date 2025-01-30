@@ -423,17 +423,10 @@ section.footer{
     width: 90%;
 }
 
-.input-texts{
-   flex-direction: column;
-   margin-bottom: 20px;
-   
-}
+
 
 body html{
     overflow-x:none;
-}
-.input-numbers{
-    flex-direction: column;
 }
 
 .footer-cols{
@@ -474,19 +467,43 @@ button{
     margin-left: 10px;
 }
 
+    .appointment.container {
+        padding: 20px;
+        text-align: center;
+    }
+    
     .contact-form {
-    width:400px;
-    margin: auto;
-    overflow: none;
-
-}    
-        .contact-form input{
-    width:220px;
-    overflow: none
-}   
-    section.appointment{
-    width: 100%;
-    overflow: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .input-texts,
+    .input-numbers {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .contact-form input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    .contact-form button {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
 }
 
 }
