@@ -491,8 +491,9 @@ button{
     .contact-form {
         width: 95%;
         padding: 15px 30px;
-        display:block;
-        margin: 0 auto;
+        margin-left:20px;
+        margin-top:20px;
+        
     }
 
     .contact-form input {
@@ -516,7 +517,7 @@ button{
 
     .info{
   
-    padding:30px 70px 30px 30px;
+    padding:30px 50px 30px 30px;
         margin-top:40px;
   
     }
