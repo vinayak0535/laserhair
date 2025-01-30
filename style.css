@@ -467,43 +467,34 @@ button{
     margin-left: 10px;
 }
 
-    .appointment.container {
-        padding: 20px;
-        text-align: center;
+  section.appointment h1 {
+        font-size: 40px;
     }
-    
+
+    section.appointment p {
+        font-size: 18px;
+    }
+
     .contact-form {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
+        width: 90%;
+        padding: 15px;
     }
-    
-    .input-texts,
-    .input-numbers {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    
+
     .contact-form input {
-        width: calc(100% - 20px);
-        padding: 10px;
+        width: 100%;
         font-size: 16px;
     }
-    
+
+    .input-texts,
+    .input-numbers {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
     .contact-form button {
         width: 100%;
-        padding: 12px;
         font-size: 18px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        cursor: pointer;
     }
-    
-    .contact-form button:hover {
-        background-color: #0056b3;
-    }
-}
 
 }
