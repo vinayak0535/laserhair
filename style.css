@@ -408,10 +408,11 @@ section.footer{
 .about-flex{
     flex-direction: column;
     justify-content: center;
-    padding:10px;
+    padding:15px;
 }
     .about-flex img{
-        height:300px
+        height:300px;
+        margin:auto;
     }
 
 .paragraph{
@@ -424,6 +425,8 @@ section.footer{
 }
 .reviews{
     flex-direction: column;
+    justify-content:center;
+    align-items:center;
 }
 
 .testi{
@@ -486,6 +489,7 @@ button{
     .contact-form {
         width: 90%;
         padding: 15px 30px;
+        margin:auto;
     }
 
     .contact-form input {
@@ -510,6 +514,16 @@ button{
     .info{
     padding:20px 40px;
         margin-top:40px;
+    }
+    .col{
+        padding: 5px 15px 5px 5px;
+    }
+    .colm{
+    flex-basis: 100%;
+}
+
+    section.footer{
+           padding-block: 20px;
     }
  
 
