@@ -482,5 +482,9 @@ button{
         .contact-form input{
     width:220px;
 }   
+    section.appointment{
+    width: 100%;
+    overflow: none;
+}
 
 }
