@@ -489,7 +489,7 @@ button{
     }
 
     .contact-form {
-        width: 90%;
+        width: 95%;
         padding: 15px 30px;
         margin:auto;
     }
@@ -516,10 +516,12 @@ button{
     .info{
     padding:10px 20px;
         margin-top:40px;
+        width:100%;
     }
     .col{
-        padding: 5px 15px 5px 5px;
+        padding: 5px 10px;
     }
+    
     .colm{
     flex-basis: 100%;
 }
@@ -527,6 +529,26 @@ button{
     section.footer{
            padding-block: 20px;
     }
+
+      .more h5{
+        font-size: 12px;
+     
+    }
+    
+    .more p{
+        font-size:8px;
+  
+    }
+
+ 
+.col i{
+    font-size: 10px;
+}
+
+    .colm li{
+    padding-block: 5px;
+    }
+
  
 
 }
