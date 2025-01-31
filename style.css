@@ -127,7 +127,8 @@ p.short{
     display: flex;
     gap: 20px;
     align-items: center;
-    padding: 10px 40px 10px 10px;
+    padding: 10px 20px;
+    width:100%;
 }
 .col:hover{
     background-color: #f1e9fa;
@@ -517,7 +518,7 @@ button{
 
     .info{
   
-    padding:20px 30px;
+    padding:10px 20px;
         width:350px;
         
         margin-top:40px;
